@@ -95,3 +95,7 @@ canvas {
 .canvas {
   background-color: rgb(32, 32, 32);
 }
+
+.footer { 
+  text-align: center;
+}
