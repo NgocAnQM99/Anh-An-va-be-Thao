@@ -1,22 +1,23 @@
 .container-fluid {
-  background: -webkit-radial-gradient(center center, circle farthest-side, #ffffff 0%, rgb(233 87 112) 150%);
+  background: -webkit-radial-gradient(center center, circle farthest-side, #ffffff 0%, rgb(160 214 255) 150%);
+  /* -webkit-radial-gradient(center center, circle farthest-side, #ffffff 0%, rgb(233 87 112) 150%); */
   /* rgb(255, 137, 157) 150%); */
-  /* height:100vh; */
   font-family: 'French Script MT', Arial, Helvetica, sans-serif;
   font-size: 20px;
+  height: 5000px;
 }
 
-.bg_heart {
+/* .bg_heart {
   height: 100vh !important;
-}
+} */
 
 .anh-01 {
-  height: 500px;
+  height: 250px;
 }
 
 html,
 body {
-  height: 100%
+  /* height: 100%; */
 }
 
 .bg_heart {
@@ -24,8 +25,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .heart {
@@ -87,15 +87,43 @@ body {
 
 /* css heart animation big  */
 canvas {
-  position: absolute;
+  /* position: absolute; */
+  /* display: none; */
   width: 100%;
-  height: 100%;
+  height: 500px;
 }
 
 .canvas {
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(255 214 214);
 }
 
-.footer { 
+.footer {
   text-align: center;
+}
+
+.second-content {
+  height: 250px;
+  background-color: #d6d0d0;
+}
+
+.div-button-album {
+  width: 100%;
+}
+
+.btn-album {
+  width: 100px;
+}
+
+.video-content {
+  height: 500px;
+  background-color: rgb(46, 46, 46);
+}
+
+.cat-fix-posi {
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.5rem;
+  z-index: 15;
 }

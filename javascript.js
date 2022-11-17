@@ -20,7 +20,7 @@ var love = setInterval(function () {
             $(this).detach();
         }
     });
-}, 1000);
+}, 100000);
 // 100 
 
 
@@ -28,17 +28,17 @@ var love = setInterval(function () {
 
 var settings = {
     particles: {
-        length: 500, // maximum amount of particles
-        duration: 2, // particle duration in sec
-        velocity: 100, // particle velocity in pixels/sec
-        effect: -0.75, // play with this for a nice effect
-        size: 30, // particle size in pixels
+        // length: 500, // maximum amount of particles
+        // duration: 2, // particle duration in sec
+        // velocity: 100, // particle velocity in pixels/sec
+        // effect: -0.75, // play with this for a nice effect
+        // size: 30, // particle size in pixels
 
-        // length: 500, // maximum amount of particles  500
-        // duration: 2, // particle duration in sec  2
-        // velocity: 200, // particle velocity in pixels/sec 100
-        // effect: -1, // play with this for a nice effect -0.75
-        // size: 40, // particle size in pixels 30
+        length: 9900, // maximum amount of particles  500
+        duration: 2, // particle duration in sec  2
+        velocity: 40, // particle velocity in pixels/sec 100
+        effect: 2, // play with this for a nice effect -0.75
+        size: 20, // particle size in pixels 30
     },
 };
 
